@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB"/>
+      <stop offset="100%" style="stop-color:#E0F6FF"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B6B"/>
+      <stop offset="100%" style="stop-color:#EE5A5A"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="200" height="200" fill="url(#sky)"/>
+  
+  <!-- Sun -->
+  <circle cx="170" cy="30" r="20" fill="#FFD93D"/>
+  
+  <!-- Cloud 1 -->
+  <ellipse cx="40" cy="40" rx="25" ry="15" fill="white" opacity="0.9"/>
+  <ellipse cx="60" cy="35" rx="20" ry="12" fill="white" opacity="0.9"/>
+  
+  <!-- Cloud 2 -->
+  <ellipse cx="120" cy="60" rx="20" ry="12" fill="white" opacity="0.8"/>
+  <ellipse cx="135" cy="55" rx="15" ry="10" fill="white" opacity="0.8"/>
+  
+  <!-- Bird body -->
+  <ellipse cx="100" cy="120" rx="45" ry="30" fill="url(#body)"/>
+  
+  <!-- Wing -->
+  <ellipse cx="100" cy="115" rx="35" ry="20" fill="#D64545"/>
+  
+  <!-- Head -->
+  <circle cx="135" cy="105" r="22" fill="url(#body)"/>
+  
+  <!-- Eye -->
+  <circle cx="142" cy="100" r="8" fill="white"/>
+  <circle cx="144" cy="99" r="4" fill="#333"/>
+  <circle cx="145" cy="98" r="1.5" fill="white"/>
+  
+  <!-- Beak -->
+  <polygon points="155,105 175,108 155,112" fill="#FFB347"/>
+  <line x1="155" y1="108" x2="175" y2="108" stroke="#E69B30" stroke-width="1"/>
+  
+  <!-- Tail feathers -->
+  <path d="M55,115 Q30,100 25,85 Q35,105 55,120" fill="#D64545"/>
+  <path d="M55,120 Q25,120 15,115 Q30,125 55,125" fill="#C43C3C"/>
+  
+  <!-- Legs -->
+  <line x1="95" y1="145" x2="95" y2="170" stroke="#FFB347" stroke-width="3"/>
+  <line x1="115" y1="145" x2="115" y2="170" stroke="#FFB347" stroke-width="3"/>
+  
+  <!-- Feet -->
+  <path d="M95,170 L85,178 M95,170 L95,180 M95,170 L105,178" stroke="#FFB347" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M115,170 L105,178 M115,170 L115,180 M115,170 L125,178" stroke="#FFB347" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Blush -->
+  <ellipse cx="150" cy="112" rx="5" ry="3" fill="#FF9999" opacity="0.6"/>
+</svg>
